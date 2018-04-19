@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './header/header.component';
 import { HeaderBotComponent } from './header-bot/header-bot.component';
 import { BannerComponent } from './banner/banner.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   imports: [
@@ -12,8 +13,9 @@ import { BannerComponent } from './banner/banner.component';
     // components
     HeaderComponent,
     HeaderBotComponent,
-    BannerComponent
+    BannerComponent,
+    FooterComponent
   ],
-  declarations: [HeaderComponent, HeaderBotComponent, BannerComponent]
+  declarations: [HeaderComponent, HeaderBotComponent, BannerComponent, FooterComponent]
 })
 export class LayoutModule { }
