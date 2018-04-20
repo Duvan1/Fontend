@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { LoadingIndicatorComponent } from './components/loading-indicator/loading-indicator.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   imports: [
@@ -8,8 +9,9 @@ import { LoadingIndicatorComponent } from './components/loading-indicator/loadin
   ],
   exports: [
     // components
-    LoadingIndicatorComponent
+    LoadingIndicatorComponent,
+    LoginComponent
   ],
-  declarations: [LoadingIndicatorComponent]
+  declarations: [LoadingIndicatorComponent, LoginComponent]
 })
 export class SharedModule { }
