@@ -283,10 +283,9 @@ label{
 }
 
 .menu__link {
-  font-size: 1.05em;
-  font-weight: bold;
+  font-size: 0.5em;
   display: block;
-  padding: 1em;
+  padding: 0.5em;
   cursor: pointer;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -368,7 +367,7 @@ label{
 }
 a.menu__link {
     color: #fff !important;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: normal;
     text-transform: uppercase;
 }
@@ -1566,7 +1565,11 @@ a.single-item{
 
 
 
-
+/*-- //popup --*/
+.pop-up{
+  color: #FDA30E; 
+  border-radius: 50%;
+}
 
 
 

@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { LoadingIndicatorComponent } from './components/loading-indicator/loading-indicator.component';
 import { LoginComponent } from './login/login.component';
+import { PopupComponent } from './components/popup/popup.component';
 
 @NgModule({
   imports: [
@@ -10,8 +11,9 @@ import { LoginComponent } from './login/login.component';
   exports: [
     // components
     LoadingIndicatorComponent,
-    LoginComponent
+    LoginComponent,
+    PopupComponent
   ],
-  declarations: [LoadingIndicatorComponent, LoginComponent]
+  declarations: [LoadingIndicatorComponent, LoginComponent, PopupComponent]
 })
 export class SharedModule { }
