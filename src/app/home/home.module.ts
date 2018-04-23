@@ -5,6 +5,7 @@ import { SliderComponent } from './slider/slider.component';
 import { RouterModule } from '@angular/router';
 //rutas
 import { HomeRoutes as routes } from './home.routes';
+import { ContentComponent } from './content/content.component';
 
 @NgModule({
   imports: [
@@ -13,7 +14,8 @@ import { HomeRoutes as routes } from './home.routes';
   ],
   declarations: [
 	  HomeComponent,
-	  SliderComponent
+	  SliderComponent,
+	  ContentComponent
   ]
 })
 export class HomeModule { }
