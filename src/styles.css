@@ -283,10 +283,9 @@ label{
 }
 
 .menu__link {
-  font-size: 1.05em;
-  font-weight: bold;
+  font-size: 0.5em;
   display: block;
-  padding: 1em;
+  padding: 0.5em;
   cursor: pointer;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -368,7 +367,7 @@ label{
 }
 a.menu__link {
     color: #fff !important;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: normal;
     text-transform: uppercase;
 }
@@ -772,6 +771,15 @@ color: #FDA30E;
   margin-bottom:30px;
 }
 .new_arrivals h3 span{
+  color:#FDA30E;
+}
+.new_arrivals h4 span{
+  color:#FDA30E;
+}
+.new_arrivals h5 span{
+  color:#FDA30E;
+}
+.new_arrivals p span{
   color:#FDA30E;
 }
 .new_arrivals p{
@@ -1566,7 +1574,11 @@ a.single-item{
 
 
 
-
+/*-- //popup --*/
+.pop-up{
+  color: #FDA30E; 
+  border-radius: 50%;
+}
 
 
 
