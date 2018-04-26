@@ -5,9 +5,11 @@ import { HeaderBotComponent } from './header-bot/header-bot.component';
 import { BannerComponent } from './banner/banner.component';
 import { FooterComponent } from './footer/footer.component';
 import { BannerFootComponent } from './banner-foot/banner-foot.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   imports: [
+    RouterModule,
     CommonModule
   ],
   exports: [

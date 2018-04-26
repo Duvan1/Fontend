@@ -6,6 +6,8 @@ import { RouterModule } from '@angular/router';
 //rutas
 import { HomeRoutes as routes } from './home.routes';
 import { ContentComponent } from './content/content.component';
+import { ProductListComponent } from './product-list/product-list.component';
+import { ItemComponent } from './product-list/item.component';
 
 @NgModule({
   imports: [
@@ -15,7 +17,9 @@ import { ContentComponent } from './content/content.component';
   declarations: [
 	  HomeComponent,
 	  SliderComponent,
-	  ContentComponent
+	  ContentComponent,
+	  ProductListComponent,
+	  ItemComponent
   ]
 })
 export class HomeModule { }
