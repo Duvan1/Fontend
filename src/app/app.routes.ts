@@ -8,7 +8,7 @@ import {ModuleWithProviders} from "@angular/core";
 export const appRoutes: Routes = [
     {
     path: '',
-    component: HomeComponent },
+    loadChildren: './home/home.module#HomeModule' },
     {
     	path: 'product',
     	component: ProductComponent
