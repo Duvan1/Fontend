@@ -8,7 +8,8 @@ import { PopupComponent } from './components/popup/popup.component';
 @NgModule({
   imports: [
     CommonModule
-  ],
+  ],  
+  declarations: [LoadingIndicatorComponent, LoginComponent, PopupComponent, NotificationComponent],
   exports: [
     // components
     LoadingIndicatorComponent,
@@ -16,6 +17,5 @@ import { PopupComponent } from './components/popup/popup.component';
     PopupComponent,
     NotificationComponent
   ],
-  declarations: [LoadingIndicatorComponent, LoginComponent, PopupComponent, NotificationComponent]
 })
 export class SharedModule { }

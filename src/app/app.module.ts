@@ -9,13 +9,13 @@ import { CheckoutModule } from './checkout/checkout.module';
 
 import { routes } from './app.routes';
 import { AppComponent } from './app.component';
-import { NotificationComponent } from './shared/components/notification/notification.component';
+//import { NotificationComponent } from './shared/components/notification/notification.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    NotificationComponent
+    //NotificationComponent
   ],
   imports: [
     routes,
