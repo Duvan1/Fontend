@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { HomeComponent } from './home.component';
 import { SliderComponent } from './slider/slider.component';
 import { RouterModule } from '@angular/router';
+import { SharedModule } from './../shared/shared.module'
 //rutas
 import { HomeRoutes as routes } from './home.routes';
 import { ContentComponent } from './content/content.component';
@@ -13,6 +14,7 @@ import { AboutComponent } from './about/about.component';
 
 @NgModule({
   imports: [
+    SharedModule,
   	RouterModule.forChild(routes),
     CommonModule
   ],
