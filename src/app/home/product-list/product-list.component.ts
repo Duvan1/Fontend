@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { ProductGummyService } from './../../core/service/product-gummy.service';
 import { Product } from './../../core/models/product';
+import { ProductGummyService } from './../../core/service/product-gummy.service';
 import {Observable} from 'rxjs/Rx';
 
 @Component({

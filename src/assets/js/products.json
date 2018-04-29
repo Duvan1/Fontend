@@ -1,0 +1,494 @@
+[
+  {
+  "id": 1,
+  "name": "Ruby on Rails Tote",
+  "description": "Doloribus quia minima natus dolorem sit nostrum. Explicabo id et quos odit aut laborum. Hic aut inventore est voluptas corrupti veritatis.",
+  "price": "15.99",
+  "display_price": "$15.99",
+  "available_on": "2017-03-08T05:32:34.364Z",
+  "slug": "ruby-on-rails-tote",
+  "meta_description": null,
+  "meta_keywords": null,
+  "shipping_category_id": 1,
+  "taxon_ids": [
+    3,
+    11
+  ],
+  "stock": 5,
+  "classifications": [
+    {
+      "taxon_id": 3,
+      "taxon": {
+         "id": 3,
+         "name": "Bags",
+         "pretty_name": "Categories -> Bags",
+         "permalink": "categories/bags",
+         "parent_id": 1,
+         "taxonomy_id": 1,
+         "taxons": []
+      }
+    },
+    {
+    "taxon_id": 11,
+    "position": 1,
+    "taxon": {
+     "id": 11,
+     "name": "Rails",
+     "pretty_name": "Brand -> Rails",
+     "permalink": "brand/rails",
+     "parent_id": 2,
+     "taxonomy_id": 2,
+     "taxons": []
+    }
+    }
+  ],
+  "images": [
+  {
+   "id": 21,
+   "type": "Spree::Image",
+   "alt": null,
+   "mini_url": "/assets/images/d2.jpg",
+   "small_url": "/assets/images/d2.jpg",
+   "product_url": "/assets/images/d2.jpg",
+   "large_url": "/assets/images/d2.jpg"
+  },
+  {
+   "id": 22,
+   "type": "Spree::Image",
+   "alt": null,
+   "mini_url": "/assets/images/d1.jpg",
+   "small_url": "/assets/images/d1.jpg",
+   "product_url": "/assets/images/d1.jpg",
+   "large_url": "/assets/images/d1.jpg"
+  },
+  {
+   "id": 23,
+   "type": "Spree::Image",
+   "alt": null,
+   "mini_url": "/assets/images/d1.jpg",
+   "small_url": "/assets/images/d1.jpg",
+   "product_url": "/assets/images/d1.jpg",
+   "large_url": "/assets/images/d1.jpg"
+  },
+  {
+   "id": 24,
+   "type": "Spree::Image",
+   "alt": null,
+   "mini_url": "/assets/images/d1.jpg",
+   "small_url": "/assets/images/d1.jpg",
+   "product_url": "/assets/images/d1.jpg",
+   "large_url": "/assets/images/d1.jpg"
+  }
+  ]
+ },
+ {
+   "id": 2,
+ "name": "Ruby on Rails Tote",
+ "description": "Doloribus quia minima natus dolorem sit nostrum. Explicabo id et quos odit aut laborum. Hic aut inventore est voluptas corrupti veritatis.",
+ "price": "15.99",
+ "display_price": "$15.99",
+ "available_on": "2017-03-08T05:32:34.364Z",
+ "slug": "ruby-on-rails-tote",
+ "meta_description": null,
+ "meta_keywords": null,
+ "shipping_category_id": 1,
+ "taxon_ids": [
+   3,
+   11
+ ],
+ "stock": 5,
+ "classifications": [
+   {
+     "taxon_id": 3,
+     "taxon": {
+       "id": 3,
+       "name": "Bags",
+       "pretty_name": "Categories -> Bags",
+       "permalink": "categories/bags",
+       "parent_id": 1,
+       "taxonomy_id": 1,
+       "taxons": []
+     }
+   },
+   {
+     "taxon_id": 11,
+     "position": 1,
+     "taxon": {
+       "id": 11,
+       "name": "Rails",
+       "pretty_name": "Brand -> Rails",
+       "permalink": "brand/rails",
+       "parent_id": 2,
+       "taxonomy_id": 2,
+       "taxons": []
+     }
+   }
+ ],
+ "images": [
+     {
+       "id": 25,
+       "type": "Spree::Image",
+       "alt": null,
+       "mini_url": "/assets/images/d2.jpg",
+       "small_url": "/assets/images/d2.jpg",
+       "product_url": "/assets/images/d2.jpg",
+       "large_url": "/assets/images/d2.jpg"
+     },
+     {
+       "id": 26,
+       "type": "Spree::Image",
+       "alt": null,
+       "mini_url": "/assets/images/d1.jpg",
+       "small_url": "/assets/images/d1.jpg",
+       "product_url": "/assets/images/d1.jpg",
+       "large_url": "/assets/images/d1.jpg"
+     },
+     {
+       "id": 27,
+       "type": "Spree::Image",
+       "alt": null,
+       "mini_url": "/assets/images/d1.jpg",
+       "small_url": "/assets/images/d1.jpg",
+       "product_url": "/assets/images/d1.jpg",
+       "large_url": "/assets/images/d1.jpg"
+     },
+     {
+       "id": 28,
+       "type": "Spree::Image",
+       "alt": null,
+       "mini_url": "/assets/images/d1.jpg",
+       "small_url": "/assets/images/d1.jpg",
+       "product_url": "/assets/images/d1.jpg",
+       "large_url": "/assets/images/d1.jpg"
+     }
+   ]
+ },
+ {
+   "id": 3,
+ "name": "Ruby on Rails Tote",
+ "description": "Doloribus quia minima natus dolorem sit nostrum. Explicabo id et quos odit aut laborum. Hic aut inventore est voluptas corrupti veritatis.",
+ "price": "15.99",
+ "display_price": "$15.99",
+ "available_on": "2017-03-08T05:32:34.364Z",
+ "slug": "ruby-on-rails-tote",
+ "meta_description": null,
+ "meta_keywords": null,
+ "shipping_category_id": 1,
+ "taxon_ids": [
+   3,
+   11
+ ],
+ "stock": 5,
+ "classifications": [
+   {
+     "taxon_id": 3,
+     "taxon": {
+       "id": 3,
+       "name": "Bags",
+       "pretty_name": "Categories -> Bags",
+       "permalink": "categories/bags",
+       "parent_id": 1,
+       "taxonomy_id": 1,
+       "taxons": []
+     }
+   },
+   {
+     "taxon_id": 11,
+     "position": 1,
+     "taxon": {
+       "id": 11,
+       "name": "Rails",
+       "pretty_name": "Brand -> Rails",
+       "permalink": "brand/rails",
+       "parent_id": 2,
+       "taxonomy_id": 2,
+       "taxons": []
+     }
+   }
+ ],
+ "images": [
+     {
+       "id": 29,
+       "type": "Spree::Image",
+       "alt": null,
+       "mini_url": "/assets/images/d2.jpg",
+       "small_url": "/assets/images/d2.jpg",
+       "product_url": "/assets/images/d2.jpg",
+       "large_url": "/assets/images/d2.jpg"
+     },
+     {
+       "id": 30,
+       "type": "Spree::Image",
+       "alt": null,
+       "mini_url": "/assets/images/d1.jpg",
+       "small_url": "/assets/images/d1.jpg",
+       "product_url": "/assets/images/d1.jpg",
+       "large_url": "/assets/images/d1.jpg"
+     },
+     {
+       "id": 31,
+       "type": "Spree::Image",
+       "alt": null,
+       "mini_url": "/assets/images/d1.jpg",
+       "small_url": "/assets/images/d1.jpg",
+       "product_url": "/assets/images/d1.jpg",
+       "large_url": "/assets/images/d1.jpg"
+     },
+     {
+       "id": 32,
+       "type": "Spree::Image",
+       "alt": null,
+       "mini_url": "/assets/images/d1.jpg",
+       "small_url": "/assets/images/d1.jpg",
+       "product_url": "/assets/images/d1.jpg",
+       "large_url": "/assets/images/d1.jpg"
+     }
+   ]
+ },
+ {
+   "id": 4,
+ "name": "Ruby on Rails Tote",
+ "description": "Doloribus quia minima natus dolorem sit nostrum. Explicabo id et quos odit aut laborum. Hic aut inventore est voluptas corrupti veritatis.",
+ "price": "15.99",
+ "display_price": "$15.99",
+ "available_on": "2017-03-08T05:32:34.364Z",
+ "slug": "ruby-on-rails-tote",
+ "meta_description": null,
+ "meta_keywords": null,
+ "shipping_category_id": 1,
+ "taxon_ids": [
+   3,
+   11
+ ],
+ "stock": 5,
+ "classifications": [
+   {
+     "taxon_id": 3,
+     "taxon": {
+       "id": 3,
+       "name": "Bags",
+       "pretty_name": "Categories -> Bags",
+       "permalink": "categories/bags",
+       "parent_id": 1,
+       "taxonomy_id": 1,
+       "taxons": []
+     }
+   },
+   {
+     "taxon_id": 11,
+     "position": 1,
+     "taxon": {
+       "id": 11,
+       "name": "Rails",
+       "pretty_name": "Brand -> Rails",
+       "permalink": "brand/rails",
+       "parent_id": 2,
+       "taxonomy_id": 2,
+       "taxons": []
+     }
+   }
+ ],
+ "images": [
+     {
+       "id": 33,
+       "type": "Spree::Image",
+       "alt": null,
+       "mini_url": "/assets/images/d2.jpg",
+       "small_url": "/assets/images/d2.jpg",
+       "product_url": "/assets/images/d2.jpg",
+       "large_url": "/assets/images/d2.jpg"
+     },
+     {
+       "id": 34,
+       "type": "Spree::Image",
+       "alt": null,
+       "mini_url": "/assets/images/d1.jpg",
+       "small_url": "/assets/images/d1.jpg",
+       "product_url": "/assets/images/d1.jpg",
+       "large_url": "/assets/images/d1.jpg"
+     },
+     {
+       "id": 35,
+       "type": "Spree::Image",
+       "alt": null,
+       "mini_url": "/assets/images/d1.jpg",
+       "small_url": "/assets/images/d1.jpg",
+       "product_url": "/assets/images/d1.jpg",
+       "large_url": "/assets/images/d1.jpg"
+     },
+     {
+       "id": 36,
+       "type": "Spree::Image",
+       "alt": null,
+       "mini_url": "/assets/images/d1.jpg",
+       "small_url": "/assets/images/d1.jpg",
+       "product_url": "/assets/images/d1.jpg",
+       "large_url": "/assets/images/d1.jpg"
+     }
+   ]
+ },
+ {
+   "id": 5,
+ "name": "Ruby on Rails Tote",
+ "description": "Doloribus quia minima natus dolorem sit nostrum. Explicabo id et quos odit aut laborum. Hic aut inventore est voluptas corrupti veritatis.",
+ "price": "15.99",
+ "display_price": "$15.99",
+ "available_on": "2017-03-08T05:32:34.364Z",
+ "slug": "ruby-on-rails-tote",
+ "meta_description": null,
+ "meta_keywords": null,
+ "shipping_category_id": 1,
+ "taxon_ids": [
+   3,
+   11
+ ],
+ "stock": 5,
+ "classifications": [
+   {
+     "taxon_id": 3,
+     "taxon": {
+       "id": 3,
+       "name": "Bags",
+       "pretty_name": "Categories -> Bags",
+       "permalink": "categories/bags",
+       "parent_id": 1,
+       "taxonomy_id": 1,
+       "taxons": []
+     }
+   },
+   {
+     "taxon_id": 11,
+     "position": 1,
+     "taxon": {
+       "id": 11,
+       "name": "Rails",
+       "pretty_name": "Brand -> Rails",
+       "permalink": "brand/rails",
+       "parent_id": 2,
+       "taxonomy_id": 2,
+       "taxons": []
+     }
+   }
+ ],
+ "images": [
+     {
+       "id": 37,
+       "type": "Spree::Image",
+       "alt": null,
+       "mini_url": "/assets/images/d2.jpg",
+       "small_url": "/assets/images/d2.jpg",
+       "product_url": "/assets/images/d2.jpg",
+       "large_url": "/assets/images/d2.jpg"
+     },
+     {
+       "id": 38,
+       "type": "Spree::Image",
+       "alt": null,
+       "mini_url": "/assets/images/d1.jpg",
+       "small_url": "/assets/images/d1.jpg",
+       "product_url": "/assets/images/d1.jpg",
+       "large_url": "/assets/images/d1.jpg"
+     },
+     {
+       "id": 39,
+       "type": "Spree::Image",
+       "alt": null,
+       "mini_url": "/assets/images/d1.jpg",
+       "small_url": "/assets/images/d1.jpg",
+       "product_url": "/assets/images/d1.jpg",
+       "large_url": "/assets/images/d1.jpg"
+     },
+     {
+       "id": 40,
+       "type": "Spree::Image",
+       "alt": null,
+       "mini_url": "/assets/images/d1.jpg",
+       "small_url": "/assets/images/d1.jpg",
+       "product_url": "/assets/images/d1.jpg",
+       "large_url": "/assets/images/d1.jpg"
+     }
+   ]
+ },
+ {
+   "id": 6,
+ "name": "Ruby on Rails Tote",
+ "description": "Doloribus quia minima natus dolorem sit nostrum. Explicabo id et quos odit aut laborum. Hic aut inventore est voluptas corrupti veritatis.",
+ "price": "15.99",
+ "display_price": "$15.99",
+ "available_on": "2017-03-08T05:32:34.364Z",
+ "slug": "ruby-on-rails-tote",
+ "meta_description": null,
+ "meta_keywords": null,
+ "shipping_category_id": 1,
+ "taxon_ids": [
+   3,
+   11
+ ],
+ "stock": 5,
+ "classifications": [
+   {
+     "taxon_id": 3,
+     "taxon": {
+       "id": 3,
+       "name": "Bags",
+       "pretty_name": "Categories -> Bags",
+       "permalink": "categories/bags",
+       "parent_id": 1,
+       "taxonomy_id": 1,
+       "taxons": []
+     }
+   },
+   {
+     "taxon_id": 11,
+     "position": 1,
+     "taxon": {
+       "id": 11,
+       "name": "Rails",
+       "pretty_name": "Brand -> Rails",
+       "permalink": "brand/rails",
+       "parent_id": 2,
+       "taxonomy_id": 2,
+       "taxons": []
+     }
+   }
+ ],
+ "images": [
+     {
+       "id": 41,
+       "type": "Spree::Image",
+       "alt": null,
+       "mini_url": "/assets/images/d2.jpg",
+       "small_url": "/assets/images/d2.jpg",
+       "product_url": "/assets/images/d2.jpg",
+       "large_url": "/assets/images/d2.jpg"
+     },
+     {
+       "id": 42,
+       "type": "Spree::Image",
+       "alt": null,
+       "mini_url": "/assets/images/d1.jpg",
+       "small_url": "/assets/images/d1.jpg",
+       "product_url": "/assets/images/d1.jpg",
+       "large_url": "/assets/images/d1.jpg"
+     },
+     {
+       "id": 43,
+       "type": "Spree::Image",
+       "alt": null,
+       "mini_url": "/assets/images/d1.jpg",
+       "small_url": "/assets/images/d1.jpg",
+       "product_url": "/assets/images/d1.jpg",
+       "large_url": "/assets/images/d1.jpg"
+     },
+     {
+       "id": 44,
+       "type": "Spree::Image",
+       "alt": null,
+       "mini_url": "/assets/images/d1.jpg",
+       "small_url": "/assets/images/d1.jpg",
+       "product_url": "/assets/images/d1.jpg",
+       "large_url": "/assets/images/d1.jpg"
+     }
+   ]
+ }
+]

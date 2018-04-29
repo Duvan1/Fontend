@@ -6,6 +6,7 @@ import { HomeModule } from './home/home.module';
 import { ProductModule } from './product/product.module';
 import { CheckoutModule } from './checkout/checkout.module';
 import { ProductGummyService } from './core/service/product-gummy.service';
+import { HttpModule } from '@angular/http';
 
 import { routes } from './app.routes';
 import { AppComponent } from './app.component';
@@ -24,7 +25,8 @@ import { AppComponent } from './app.component';
     LayoutModule,
     HomeModule,
     ProductModule,
-    CheckoutModule
+    CheckoutModule,
+    HttpModule
   ],
   providers: [AppComponent],
   bootstrap: [AppComponent]
