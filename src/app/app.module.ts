@@ -2,6 +2,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { SharedModule } from './shared/shared.module';
 import { LayoutModule } from './layout/layout.module';
+import { AdminModule } from './admin/admin.module';
+import { VendedorModule } from './vendedor/vendedor.module';
 import { HomeModule } from './home/home.module';
 import { ProductModule } from './product/product.module';
 import { CheckoutModule } from './checkout/checkout.module';
@@ -26,7 +28,9 @@ import { AppComponent } from './app.component';
     HomeModule,
     ProductModule,
     CheckoutModule,
-    HttpModule
+    HttpModule,
+    AdminModule,
+    VendedorModule
   ],
   providers: [AppComponent],
   bootstrap: [AppComponent]
