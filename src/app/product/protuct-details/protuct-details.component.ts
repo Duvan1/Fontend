@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { Product } from './../../core/models/product';
+import { ProductGummyService } from './../../core/service/product-gummy.service';
 
 @Component({
   selector: 'app-protuct-details',
@@ -7,9 +9,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProtuctDetailsComponent implements OnInit {
 
-  constructor() { }
+  @Input() id: any;
+
+  product: Product;
+
+  constructor(private productGummyService: ProductGummyService ) { }
 
   ngOnInit() {
+  	this.product = this.productGummyService.getProduct(this.id);
+  	console.log(this.product.id);
   }
 
 }

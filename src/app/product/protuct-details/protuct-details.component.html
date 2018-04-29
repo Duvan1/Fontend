@@ -13,21 +13,9 @@
 					  </ol>
 
 					  <!-- Wrapper for slides -->
-					  <div class="carousel-inner">
-					    <div class="item active">
-					      <img src="/assets/images/d1.jpg" alt="Los Angeles">
-					    </div>
-
-					    <div class="item">
-					      <img src="/assets/images/d2.jpg" alt="Chicago">
-					    </div>
-
-					    <div class="item">
-					      <img src="/assets/images/d3.jpg" alt="New York">
-					    </div>
-
-					    <div class="item">
-					      <img src="/assets/images/d4.jpg" alt="New York">
+					  <div class="carousel-inner" *ngFor="let img of product.images ; let i = index">
+					    <div class="item" [ngClass]="{active: i===0}">
+					      <img src="{{img.mini_url}}">
 					    </div>
 					  </div>
 
@@ -48,7 +36,7 @@
 			</div>
 		</div>
 		<div class="col-md-6 single-right-left simpleCart_shelfItem animated wow slideInRight animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: slideInRight;">
-			<app-product-price-info></app-product-price-info>
+			<app-product-price-info [productName]="product.name" [productPrice]="product.price"></app-product-price-info>
 			
 			<div class="color-quality">
 				<div class="color-quality-right">
@@ -59,7 +47,7 @@
 			</div>
 			<br>
 			<div class="occasion-cart">
-				<a href="#" class="item_add hvr-outline-out button2">Al carrito</a>
+				<a href="#" class="item_add hvr-outline-out button2">Al carrito </a>
 			</div>					
 		</div>
 		<div class="clearfix"> </div>
@@ -67,7 +55,7 @@
 		<div class="bootstrap-tab animated wow slideInUp animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: slideInUp;">
 			<div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
 				<ul id="myTab" class="nav nav-tabs" role="tablist">
-					<li role="presentation" class="active"><a href="#home" id="home-tab" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true">Description</a></li>
+					<li role="presentation" class="active"><a href="#home" id="home-tab" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true">Descripción</a></li>
 					<li role="presentation" class="dropdown">
 						<a href="#" id="myTabDrop1" class="dropdown-toggle" data-toggle="dropdown" aria-controls="myTabDrop1-contents">Information <span class="caret"></span></a>
 						<ul class="dropdown-menu" role="menu" aria-labelledby="myTabDrop1" id="myTabDrop1-contents">
@@ -78,7 +66,7 @@
 				</ul>
 				<div id="myTabContent" class="tab-content">
 					<div role="tabpanel" class="tab-pane fade in active bootstrap-tab-text" id="home" aria-labelledby="home-tab">
-						<app-product-description></app-product-description>
+						<app-product-description [productDescription]="product.description"></app-product-description>
 					</div>
 					
 					<div role="tabpanel" class="tab-pane fade bootstrap-tab-text" id="dropdown1" aria-labelledby="dropdown1-tab">

@@ -58,37 +58,37 @@ export class ProductGummyService {
              'id': 21,
              'type': 'Spree::Image',
              'alt': null,
+             'mini_url': '/assets/images/d1.jpg',
+             'small_url': '/assets/images/d1.jpg',
+             'product_url': '/assets/images/d1.jpg',
+             'large_url': '/assets/images/d1.jpg'
+           },
+           {
+             'id': 22,
+             'type': 'Spree::Image',
+             'alt': null,
              'mini_url': '/assets/images/d2.jpg',
              'small_url': '/assets/images/d2.jpg',
              'product_url': '/assets/images/d2.jpg',
              'large_url': '/assets/images/d2.jpg'
            },
            {
-             'id': 22,
-             'type': 'Spree::Image',
-             'alt': null,
-             'mini_url': '/assets/images/d1.jpg',
-             'small_url': '/assets/images/d1.jpg',
-             'product_url': '/assets/images/d1.jpg',
-             'large_url': '/assets/images/d1.jpg'
-           },
-           {
              'id': 23,
              'type': 'Spree::Image',
              'alt': null,
-             'mini_url': '/assets/images/d1.jpg',
-             'small_url': '/assets/images/d1.jpg',
-             'product_url': '/assets/images/d1.jpg',
-             'large_url': '/assets/images/d1.jpg'
+             'mini_url': '/assets/images/d3.jpg',
+             'small_url': '/assets/images/d3.jpg',
+             'product_url': '/assets/images/d3.jpg',
+             'large_url': '/assets/images/d3.jpg'
            },
            {
              'id': 24,
              'type': 'Spree::Image',
              'alt': null,
-             'mini_url': '/assets/images/d1.jpg',
-             'small_url': '/assets/images/d1.jpg',
-             'product_url': '/assets/images/d1.jpg',
-             'large_url': '/assets/images/d1.jpg'
+             'mini_url': '/assets/images/d4.jpg',
+             'small_url': '/assets/images/d4.jpg',
+             'product_url': '/assets/images/d4.jpg',
+             'large_url': '/assets/images/d4.jpg'
            }
          ]
      });
