@@ -4,6 +4,7 @@ import { HomeComponent } from './home.component';
 import { SliderComponent } from './slider/slider.component';
 import { RouterModule } from '@angular/router';
 import { SharedModule } from './../shared/shared.module'
+import { ProductGummyService } from './../core/service/product-gummy.service';
 //rutas
 import { HomeRoutes as routes } from './home.routes';
 import { ContentComponent } from './content/content.component';
@@ -20,6 +21,9 @@ import { AboutComponent } from './about/about.component';
   ],
   exports: [
   	ProductListComponent
+  ],
+  providers: [
+  ProductGummyService
   ],
   declarations: [
 	  HomeComponent,

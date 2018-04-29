@@ -5,7 +5,7 @@ import { LayoutModule } from './layout/layout.module';
 import { HomeModule } from './home/home.module';
 import { ProductModule } from './product/product.module';
 import { CheckoutModule } from './checkout/checkout.module';
-
+import { ProductGummyService } from './core/service/product-gummy.service';
 
 import { routes } from './app.routes';
 import { AppComponent } from './app.component';
@@ -26,7 +26,7 @@ import { AppComponent } from './app.component';
     ProductModule,
     CheckoutModule
   ],
-  providers: [],
+  providers: [AppComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
