@@ -1,5 +1,5 @@
 <!-- login -->
-<div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+<div >
 	<div class="modal-dialog" role="document">
 		<div class="modal-content modal-info">
 			<div class="modal-body modal-spa">
@@ -28,28 +28,8 @@
 								
 							</form>
 						</div>
-						<div class="login-right">
-							<h3>Inicia sesión con tu cuenta</h3>
-							<form >
-								<div class="sign-in">
-									<h4>Correo :</h4>
-									<input type="text" value="Correo electronico" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Correo electronico';}" required #correo>	
-								</div>
-								<div class="sign-in">
-									<h4>Contraseña :</h4>
-									<input type="password" value="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}" required #contrasenia>
-									<a href="#">¿Olvido su contraseña?</a>
-								</div>
-								<div class="single-bottom">
-									<input type="checkbox"  id="brand" value="">
-									<label for="brand"><span></span>Recordar mi usuario.</label>
-								</div>
-								<div class="sign-in">
-									<input type="submit" value="INICIAR SESIÓN" class="close" data-dismiss="modal" aria-label="Close" >
-								</div>
-							</form>
-						</div>
 						<div class="clearfix"></div>
+						<p><a [routerLink]="['/login']">Inicia sesión</a></p>
 					</div>
 					<p>Al iniciar sesión, acepta nuestros <a href="#">Términos y condiciones</a> y <a href="#">La política de privacidad</a></p>
 				</div>

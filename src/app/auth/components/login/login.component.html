@@ -1,33 +1,10 @@
 <!-- login -->
-<div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+<div >
 	<div class="modal-dialog" role="document">
 		<div class="modal-content modal-info">
 			<div class="modal-body modal-spa">
 				<div class="login-grids">
 					<div class="login">
-						<div class="login-bottom">
-							<h3>Registrate gratis</h3>
-							<form>
-								<div class="sign-up">
-									<h4>Correo :</h4>
-									<input type="text" value="Correo electronico" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Correo electronico';}" required="">	
-								</div>
-								<div class="sign-up">
-									<h4>Password :</h4>
-									<input type="password" value="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}" required="">
-									
-								</div>
-								<div class="sign-up">
-									<h4>Vuelva a escribir la contraseña :</h4>
-									<input type="password" value="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}" required="">
-									
-								</div>
-								<div class="sign-up">
-									<input type="submit" value="REGISTRATE" >
-								</div>
-								
-							</form>
-						</div>
 						<div class="login-right">
 							<h3>Inicia sesión con tu cuenta</h3>
 							<form >
@@ -50,6 +27,7 @@
 							</form>
 						</div>
 						<div class="clearfix"></div>
+						<p><a [routerLink]="['/signup']">Registrarse</a></p>
 					</div>
 					<p>Al iniciar sesión, acepta nuestros <a href="#">Términos y condiciones</a> y <a href="#">La política de privacidad</a></p>
 				</div>

@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { SharedModule } from './shared/shared.module';
 import { LayoutModule } from './layout/layout.module';
 import { AdminModule } from './admin/admin.module';
+import { AuthModule } from './auth/auth.module';
 import { VendedorModule } from './vendedor/vendedor.module';
 import { HomeModule } from './home/home.module';
 import { ProductModule } from './product/product.module';
@@ -36,6 +37,7 @@ import {environment} from '../environments/environment';
     ProductModule,
     CheckoutModule,
     HttpModule,
+    AuthModule,
     AdminModule,
     VendedorModule,
     AngularFireModule.initializeApp(environment.firebase)

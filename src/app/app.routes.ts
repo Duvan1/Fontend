@@ -7,8 +7,8 @@ import {ModuleWithProviders} from "@angular/core";
 
 export const appRoutes: Routes = [
     {
-    path: '',
-    loadChildren: './home/home.module#HomeModule' },
+        path: '',
+        loadChildren: './home/home.module#HomeModule' },
     {
     	path: 'product',
     	component: ProductComponent
@@ -17,6 +17,9 @@ export const appRoutes: Routes = [
     	path: 'shopping-cart',
     	component: CartComponent
     },
+    {
+        path: 'auth',
+        loadChildren: './auth/auth.module#AuthModule'},
     { path: '**', redirectTo: '/home'}
 ];
 
