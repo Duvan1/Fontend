@@ -5,9 +5,12 @@ import { HeaderBotComponent } from './header-bot/header-bot.component';
 import { BannerComponent } from './banner/banner.component';
 import { FooterComponent } from './footer/footer.component';
 import { BannerFootComponent } from './banner-foot/banner-foot.component';
+import { RouterModule } from '@angular/router';
+import { TitlePageComponent } from './title-page/title-page.component';
 
 @NgModule({
   imports: [
+  RouterModule,
     CommonModule
   ],
   exports: [
@@ -16,8 +19,9 @@ import { BannerFootComponent } from './banner-foot/banner-foot.component';
     HeaderBotComponent,
     BannerComponent,
     FooterComponent,
-    BannerFootComponent
+    BannerFootComponent,
+    TitlePageComponent
   ],
-  declarations: [HeaderComponent, HeaderBotComponent, BannerComponent, FooterComponent, BannerFootComponent]
+  declarations: [HeaderComponent, HeaderBotComponent, BannerComponent, FooterComponent, BannerFootComponent, TitlePageComponent]
 })
 export class LayoutModule { }
