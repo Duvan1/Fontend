@@ -33,14 +33,14 @@
 						</div>
 						<div class="login-right">
 							<h3>Inicia sesión con tu cuenta</h3>
-							<form (submit)="loginUser($event)">
+							<form >
 								<div class="sign-in">
 									<h4>Correo :</h4>
-									<input type="text" value="Correo electronico" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Correo electronico';}" required="">	
+									<input type="text" value="Correo electronico" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Correo electronico';}" required #correo>	
 								</div>
 								<div class="sign-in">
 									<h4>Contraseña :</h4>
-									<input type="password" value="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}" required="">
+									<input type="password" value="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}" required #contrasenia>
 									<a href="#">¿Olvido su contraseña?</a>
 								</div>
 								<div class="single-bottom">
@@ -48,7 +48,7 @@
 									<label for="brand"><span></span>Recordar mi usuario.</label>
 								</div>
 								<div class="sign-in">
-									<input type="submit" value="INICIAR SESIÓN" >
+									<input type="submit" value="INICIAR SESIÓN" class="close" data-dismiss="modal" aria-label="Close" (click)="login()">
 								</div>
 							</form>
 						</div>

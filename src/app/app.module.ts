@@ -12,6 +12,8 @@ import { HttpModule } from '@angular/http';
 
 import { routes } from './app.routes';
 import { AppComponent } from './app.component';
+import { AuthService } from'./core/service/auth.service';
+
 //import { NotificationComponent } from './shared/components/notification/notification.component';
 
 
@@ -32,7 +34,7 @@ import { AppComponent } from './app.component';
     AdminModule,
     VendedorModule
   ],
-  providers: [AppComponent],
+  providers: [AppComponent, AuthService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

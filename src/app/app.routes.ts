@@ -16,7 +16,8 @@ export const appRoutes: Routes = [
     {
     	path: 'shopping-cart',
     	component: CartComponent
-    }
+    },
+    { path: '**', redirectTo: '/home'}
 ];
 
 export const routes:ModuleWithProviders= RouterModule.forRoot(appRoutes);
