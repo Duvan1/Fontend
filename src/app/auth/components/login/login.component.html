@@ -7,14 +7,14 @@
 					<div class="login">
 						<div class="login-right">
 							<h3>Inicia sesión con tu cuenta</h3>
-							<form >
+							<form (submit)="onSubmitLogin()">
 								<div class="sign-in">
 									<h4>Correo :</h4>
-									<input type="text" value="Correo electronico" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Correo electronico';}" required #correo>	
+									<input type="text" [(ngModel)]="email" name="email"  required class="form-control">	
 								</div>
 								<div class="sign-in">
 									<h4>Contraseña :</h4>
-									<input type="password" value="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}" required #contrasenia>
+									<input type="password" [(ngModel)]="pass" name="pass"  required class="form-control">
 									<a href="#">¿Olvido su contraseña?</a>
 								</div>
 								<div class="single-bottom">

@@ -4,14 +4,18 @@ import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/register/register.component';
 import { AuthRoutes as routes } from './auth.routes';
 import { RouterModule } from '@angular/router';
-import { AuthComponent } from './auth.component';
+import {AuthService} from './../core/service/auth.service';
+import { FormsModule } from '@angular/forms'
+
 
 
 @NgModule({
   imports: [
   	RouterModule.forChild(routes),
+  	FormsModule,
     CommonModule
   ],
-  declarations: [LoginComponent, RegisterComponent, AuthComponent]
+  providers: [AuthService],
+  declarations: [LoginComponent, RegisterComponent]
 })
 export class AuthModule { }

@@ -15,10 +15,10 @@ import { routes } from './app.routes';
 import { AppComponent } from './app.component';
 import { AuthService } from'./core/service/auth.service';
 import { AngularFireModule } from 'angularfire2';
+import { AngularFireAuthModule } from 'angularfire2/auth';
 import {environment} from '../environments/environment';
-
-
-
+import { FormsModule } from '@angular/forms'
+import { AuthGuard } from './core/service/auth.guard';
 
 //import { NotificationComponent } from './shared/components/notification/notification.component';
 
@@ -30,6 +30,7 @@ import {environment} from '../environments/environment';
   ],
   imports: [
     routes,
+    FormsModule,
     BrowserModule,
     SharedModule,
     LayoutModule,
@@ -40,9 +41,10 @@ import {environment} from '../environments/environment';
     AuthModule,
     AdminModule,
     VendedorModule,
+    AngularFireAuthModule,
     AngularFireModule.initializeApp(environment.firebase)
   ],
-  providers: [AppComponent, AuthService],
+  providers: [AppComponent, AuthService, AuthGuard],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
