@@ -1,0 +1,67 @@
+<!-- banner -->
+<div class="ban-top">
+  <div class="container">
+    <div class="top_nav_left">
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          </button>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse menu--shylock" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav menu__list">
+          
+          <li class=" menu__item"><a class="menu__link" routerLinkActive="active" [routerLink]="['/admin']">Dashboard</a></li>
+          <li class=" menu__item"><a class="menu__link" [routerLink]="['/stats']">Estadisticas</a></li>
+          <li class="dropdown menu__item">
+            <a href="#" class="dropdown-toggle menu__link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Administrar<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <div class="row">
+                  <div class="col-sm-3 multi-gd-img">
+                    <ul class="multi-column-dropdown">
+                      <li><a href="mens.html" routerLinkActive="active" [routerLink]="['/admin-products']">Productos</a></li>
+                      <li *ngIf="!vende"><a href="mens.html" routerLinkActive="active" [routerLink]="['/empleados']">Empleados</a></li>
+                      <li><a href="mens.html" routerLinkActive="active" [routerLink]="['/pedidos']">Pedidos</a></li>
+                      <li><a href="mens.html" routerLinkActive="active" [routerLink]="['/categorias']">Categorias</a></li>
+                    </ul>
+                  </div>
+                  <div class="clearfix"></div>
+                </div>
+              </ul>
+          </li>
+          </ul>
+        </div>
+        </div>
+      </nav>  
+    </div>
+    <div class="top_nav_right">
+      <div class="collapse navbar-collapse menu--shylock" (click)="salir()">
+          <ul class="nav navbar-nav menu__list">          
+            <li class=" menu__item"><a class="menu__link">
+              <p><span class="glyphicon glyphicon-log-out"></span> Salir</p>
+            </a></li>
+          </ul>
+       </div>            
+    </div>
+    <div class="clearfix"></div>
+  </div>
+</div>
+<!-- //banner-top -->
+
+<div class="product-easy">
+  <div class="container">
+    <!-- categorias -->
+    <ul class="resp-tabs-list">
+      <li class="resp-tab-item" aria-controls="tab_item-0" role="tab"><a routerLinkActive="active" [routerLink]="['/admin-products']"><span>Productos</span></a></li> 
+      <li class="resp-tab-item" aria-controls="tab_item-1" role="tab"><a routerLinkActive="active" [routerLink]="['/pedidos']"><span>Pedidos</span></a></li>
+      <li class="resp-tab-item" aria-controls="tab_item-2" role="tab" *ngIf="!vende"><a routerLinkActive="active" [routerLink]="['/empleados']"><span>Empleados</span></a></li> 
+      <li class="resp-tab-item" aria-controls="tab_item-2" role="tab"><a routerLinkActive="active" [routerLink]="['/categorias']"><span>Categorias</span></a></li> 
+    </ul>
+  </div>
+</div>

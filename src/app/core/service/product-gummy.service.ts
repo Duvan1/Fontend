@@ -12,9 +12,9 @@ export class ProductGummyService {
    getProduct(slug: string): Product {
      return Object.assign(new Product, {
        'id': 1,
-       'name': 'Ruby on Rails Tote',
+       'name': 'Telas melas',
        'description': 'Doloribus quia minima natus dolorem sit nostrum. Explicabo id et quos odit aut laborum. Hic aut inventore est voluptas corrupti veritatis.',
-       'price': '15.99',
+       'price': '19',
        'display_price': '$15.99',
        'available_on': '2017-03-08T05:32:34.364Z',
        'slug': 'ruby-on-rails-tote',

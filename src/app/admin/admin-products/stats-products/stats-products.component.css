@@ -1,0 +1,11 @@
+.stats{
+	padding: 5px;
+}
+
+.stats-header .stats-footer .stats-body{
+	padding: 5px;
+	
+}
+.stats-header .stats-footer{
+	background: rgba(240,240,240);
+}

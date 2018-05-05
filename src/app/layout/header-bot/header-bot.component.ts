@@ -19,7 +19,7 @@ export class HeaderBotComponent implements OnInit {
   			this.isLogin = true;
 	  		this.emailUser = auth.email;
 	  		this.nombreUser = auth.displayName;
-	  		console.log(this.isLogin );
+	  		//|console.log(this.isLogin );
   		}else{
   			this.isLogin = false;
   		}
@@ -29,6 +29,8 @@ export class HeaderBotComponent implements OnInit {
 
   onClickLogout(){
   	this.auth.logout();
+    localStorage.setItem("rol", "client");
+    window.location.reload();
   }
 
 }

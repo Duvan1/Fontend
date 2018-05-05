@@ -20,6 +20,11 @@ import {environment} from '../environments/environment';
 import { FormsModule } from '@angular/forms'
 import { AuthGuard } from './core/service/auth.guard';
 
+import {FlashMessagesModule} from 'angular2-flash-messages';
+import {FlashMessagesService} from 'angular2-flash-messages';
+
+import { ChartsModule } from 'ng2-charts';
+
 //import { NotificationComponent } from './shared/components/notification/notification.component';
 
 
@@ -34,6 +39,7 @@ import { AuthGuard } from './core/service/auth.guard';
     BrowserModule,
     SharedModule,
     LayoutModule,
+    FlashMessagesModule,
     HomeModule,
     ProductModule,
     CheckoutModule,
@@ -42,9 +48,10 @@ import { AuthGuard } from './core/service/auth.guard';
     AdminModule,
     VendedorModule,
     AngularFireAuthModule,
-    AngularFireModule.initializeApp(environment.firebase)
+    AngularFireModule.initializeApp(environment.firebase),
+    ChartsModule
   ],
-  providers: [AppComponent, AuthService, AuthGuard],
+  providers: [AppComponent, AuthService, AuthGuard, FlashMessagesService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

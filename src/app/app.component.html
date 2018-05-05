@@ -1,8 +1,15 @@
-<app-header></app-header>
-<app-header-bot></app-header-bot>
-<app-banner></app-banner>
+<div *ngIf="!ocultar">
+	<app-header></app-header>
+	<app-header-bot></app-header-bot>
+	<app-banner></app-banner>
+	<flash-messages></flash-messages>
+</div>
+
 	<router-outlet></router-outlet>
-<app-banner-foot></app-banner-foot>
-<app-footer></app-footer>
-<app-login></app-login>
-<app-popup></app-popup>
+<div *ngIf="!ocultar">
+	<app-banner-foot></app-banner-foot>
+	<app-footer></app-footer>
+	<app-login></app-login>
+	<app-popup></app-popup>
+</div>
+

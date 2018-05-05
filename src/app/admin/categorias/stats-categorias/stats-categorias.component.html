@@ -1,0 +1,18 @@
+<h2 class="text-center">Ventas por cada categoria</h2>
+<div style="display: block" class="col-md-6">
+  <canvas baseChart
+              [data]="doughnutChartData"
+              [labels]="doughnutChartLabels"
+              [chartType]="doughnutChartType"
+              (chartHover)="chartHovered($event)"
+              (chartClick)="chartClicked($event)"></canvas>
+</div>
+<h2 class="text-center">Ventas por sub-categoria</h2>
+<div style="display: block" class="col-md-6">
+  <canvas baseChart
+          [datasets]="radarChartData"
+          [labels]="radarChartLabels"
+          [chartType]="radarChartType"
+          (chartHover)="chartHovered($event)"
+          (chartClick)="chartClicked($event)"></canvas>
+</div>
